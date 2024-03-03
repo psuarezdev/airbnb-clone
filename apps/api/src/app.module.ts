@@ -9,9 +9,9 @@ import { ReservationModule } from './reservation/reservation.module';
 
 @Module({
   imports: [
-    // ServeStaticModule.forRoot({
-    //   rootPath: join(__dirname, '../..', 'client/dist')
-    // }),
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '../..', 'client/dist')
+    }),
     ConfigModule.forRoot(),
     UserModule,
     AuthModule,
