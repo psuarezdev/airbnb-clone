@@ -15,8 +15,6 @@ export default function Listing() {
   const [listing, setListing] = useState<Listing | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // TODO: Make a custom hook for fetching a single listing - useListing
-
   useEffect(()=> {
     fetch(`/api/listings/${id}`, {
       method: 'GET',
