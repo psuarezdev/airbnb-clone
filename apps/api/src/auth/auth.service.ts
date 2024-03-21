@@ -40,7 +40,7 @@ export class AuthService {
     return {
       accessToken: await this.jwtService.signAsync(payload),
       refreshToken: await this.jwtService.signAsync(payload, {
-        expiresIn: EXPIRES_IN,
+        expiresIn: REFRESH_EXPIRES_IN,
         secret: process.env.JWT_REFRESH_SECRET
       }),
       expiresIn: new Date().setTime(new Date().getTime() + EXPIRES_IN)
