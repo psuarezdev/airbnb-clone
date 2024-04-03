@@ -1,4 +1,4 @@
-# Monorepo Full Stack Airbnb Clone with React.js, Nest.js, Tailwind, Prisma, MongoDB.
+# Monorepo Full Stack Airbnb Clone with React.js, Nest.js, Tailwind, Prisma, MongoDB
 
 ## Prerequisites
 
